@@ -9,9 +9,7 @@ st.title("Projet de Rattrapage - Machine Learning")
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Sélectionnez la tâche", ["Régression (Prix de vente)", "Classification (État du véhicule)"])
 
-# -----------------------------------------------------------------------------
-# PAGE 1 : RÉGRESSION
-# -----------------------------------------------------------------------------
+regression
 if page == "Régression (Prix de vente)":
     st.header("Prédiction du Prix de Vente (Selling Price)")
     st.write("Ce modèle prédit le prix de vente d'un véhicule basé sur ses caractéristiques.")
@@ -40,14 +38,12 @@ if page == "Régression (Prix de vente)":
         prediction = model_reg.predict(features_scaled)
         st.success(f"Le prix de vente estimé est de : {prediction[0]:.2f} (en unités de valeur)")
 
-# -----------------------------------------------------------------------------
-# PAGE 2 : CLASSIFICATION
-# -----------------------------------------------------------------------------
+classification
 else:
     st.header("Prédiction de l'État de la Voiture (Classification)")
     st.write("Ce modèle évalue l'état d'un véhicule à partir de ses données Expat Car.")
     
-    # Ajoutez ici les champs correspondant aux variables de votre dataset de classification
+   
     # Exemple générique à adapter selon votre dataset :
     km = st.number_input("Kilométrage", min_value=0, value=30000)
     annee = st.number_input("Année", min_value=2000, max_value=2026, value=2018)
