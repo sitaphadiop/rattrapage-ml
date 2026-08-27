@@ -1,0 +1,21 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Keep model binaries if you intend to store them in the repo
+# models/*.joblib
