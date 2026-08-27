@@ -4,8 +4,7 @@ import joblib
 import os
 import numpy as np
 
-# Ce script crée des modèles/scalers "dummy" pour permettre de lancer
-# l'application Streamlit si vous n'avez pas encore les vrais fichiers .joblib.
+
 
 os.makedirs('models', exist_ok=True)
 
