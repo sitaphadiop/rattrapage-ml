@@ -1,4 +1,4 @@
-# Rattrapage ML - Application Streamlit
+# Rattrapage ML 
 
 Ce dépôt contient une application Streamlit pour deux tâches : prédiction du prix de vente (régression) et classification de l'état d'un véhicule.
 
