@@ -8,4 +8,3 @@ Fichiers attendus (exemples) :
 - model_classif.joblib            # Meilleur modèle de classification
 - scaler_classif.joblib           # Scaler pour la classification
 
-REMARQUE : Ces fichiers sont des binaires (.joblib). Vous devez les ajouter vous‑même ou me les fournir pour que l'application fonctionne.
